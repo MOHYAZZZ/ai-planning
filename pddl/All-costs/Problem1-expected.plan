@@ -1,0 +1,12 @@
+;;!domain: expensive-transport
+;;!problem: Problem1
+
+0.00100: (load cargo1 plane1 new-york)
+0.00200: (fly plane1 new-york london d1 d2)
+0.00300: (unload cargo1 plane1 london)
+0.00400: (pick-up cargo2 truck2 london)
+0.00500: (drive truck2 london new-york d2 d3)
+0.00600: (drop cargo2 truck2 new-york)
+
+; Makespan: 0.006
+; Metric: 0.006

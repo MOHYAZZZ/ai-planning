@@ -1,0 +1,30 @@
+{
+    "defaultDomain": "CargotransportDomain.pddl",
+    "defaultOptions": "",
+    "cases": [
+        {
+            "problem": "CargotransportProblem1.pddl",
+            "expectedPlans": [
+                "CargotransportProblem1-expected.plan"
+            ]
+        },
+        {
+            "problem": "CargotransportProblem2.pddl",
+            "expectedPlans": [
+                "CargotransportProblem2-expected.plan"
+            ]
+        },
+        {
+            "problem": "CargotransportProblem3.pddl",
+            "expectedPlans": [
+                "CargotransportProblem3-expected.plan"
+            ]
+        },
+        {
+            "problem": "CargotransportProblem4.pddl",
+            "expectedPlans": [
+                "CargotransportProblem4-expected.plan"
+            ]
+        }
+    ]
+}

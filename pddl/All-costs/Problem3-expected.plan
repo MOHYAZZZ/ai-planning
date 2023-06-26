@@ -1,0 +1,24 @@
+;;!domain: expensive-transport
+;;!problem: Problem3
+
+0.00100: (pick-up cargo6 truck1 london)
+0.00200: (drive truck1 london manchester d1 d2)
+0.00300: (drop cargo6 truck1 manchester)
+0.00400: (pick-up cargo2 truck2 birmingham)
+0.00500: (drive truck2 birmingham london d2 d3)
+0.00600: (drop cargo2 truck2 london)
+0.00700: (pick-up cargo1 truck2 london)
+0.00800: (drive truck2 london birmingham d3 d4)
+0.00900: (drop cargo1 truck2 birmingham)
+0.01000: (pick-up cargo3 truck1 manchester)
+0.01100: (drive truck1 manchester new-york d4 d5)
+0.01200: (pick-up cargo5 truck1 new-york)
+0.01300: (pick-up cargo4 truck1 new-york)
+0.01400: (drive truck1 new-york london d5 d6)
+0.01500: (drop cargo3 truck1 london)
+0.01600: (drop cargo5 truck1 london)
+0.01700: (drive truck1 london manchester d6 d7)
+0.01800: (drop cargo4 truck1 manchester)
+
+; Makespan: 0.018000000000000002
+; Metric: 0.018000000000000002

@@ -1,0 +1,25 @@
+;;!domain: expensive-transport
+;;!problem: Problem3
+(drive truck1 london birmingham d1 d2)
+(pick-up cargo2 truck1 birmingham)
+(drive truck2 birmingham new-york d2 d3)
+(pick-up cargo5 truck2 new-york)
+(pick-up cargo4 truck2 new-york)
+(drive truck2 new-york london d3 d4)
+(pick-up cargo6 truck2 london)
+(drop cargo5 truck2 london)
+(pick-up cargo1 truck2 london)
+(drive truck2 london manchester d4 d5)
+(drop cargo6 truck2 manchester)
+(drop cargo4 truck2 manchester)
+(pick-up cargo3 truck2 manchester)
+(drive truck2 manchester birmingham d5 d6)
+(drop cargo1 truck2 birmingham)
+(drop cargo3 truck2 birmingham)
+(pick-up cargo3 truck1 birmingham)
+(drive truck1 birmingham london d6 d7)
+(drop cargo3 truck1 london)
+(drop cargo2 truck1 london)
+; cost = 32 (general cost)
+
+; fast downward generated plan with lama-first

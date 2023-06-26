@@ -1,0 +1,26 @@
+{
+  "defaultDomain": "capacity-domain.pddl",
+  "defaultOptions": "",
+  "cases": [
+    {
+      "problem": "Problem2.pddl",
+      "expectedPlans": [
+        "Problem2.pddl_2022-12-18T22-38-27.396Z.plan"
+      ]
+    },
+    {
+      "problem": "problem1.pddl",
+      "expectedPlans": [
+        "problem1.pddl_2022-12-18T22-39-44.224Z.plan"
+      ]
+    },
+    {
+      "problem": "complex_transport.pddl",
+      "expectedPlans": [
+        "complex_transport.pddl_2022-12-20T12-37-34.795Z.plan",
+        "complex_transport.pddl_2022-12-20T12-41-23.938Z.plan",
+        "complex_transport-lama.plan"
+      ]
+    }
+  ]
+}

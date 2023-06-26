@@ -1,0 +1,15 @@
+;;!domain: capacity-transport
+;;!problem: Problem2
+
+0.00100: (load cargo3 plane2 shiraz x2 x3)
+0.00200: (fly plane2 shiraz tokyo d1 d2)
+0.00300: (unload cargo3 plane2 tokyo x2 x3)
+0.00400: (load cargo2 plane1 tokyo x0 x1)
+0.00500: (fly plane1 tokyo shiraz d2 d3)
+0.00600: (unload cargo2 plane1 shiraz x0 x1)
+0.00700: (pick-up cargo4 truck2 egham x2 x3)
+0.00800: (drive truck2 egham london d3 d4)
+0.00900: (drop cargo4 truck2 london x2 x3)
+0.01000: (pick-up cargo1 truck1 london x4 x5)
+0.01100: (drive truck1 london egham d4 d5)
+0.01200: (drop cargo1 truck1 egham x4 x5)

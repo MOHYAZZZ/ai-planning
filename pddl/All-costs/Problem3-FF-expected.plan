@@ -1,0 +1,23 @@
+;;!domain: expensive-transport
+;;!problem: Problem3
+(drive truck2 birmingham new-york d1 d2)
+(pick-up cargo6 truck1 london)
+(pick-up cargo5 truck2 new-york)
+(pick-up cargo4 truck2 new-york)
+(drive truck2 new-york manchester d2 d3)
+(drop cargo4 truck2 manchester)
+(pick-up cargo3 truck2 manchester)
+(drive truck1 london manchester d3 d4)
+(drive truck2 manchester london d4 d5)
+(drop cargo6 truck1 manchester)
+(drop cargo5 truck2 london)
+(drop cargo3 truck2 london)
+(pick-up cargo1 truck2 london)
+(drive truck2 london birmingham d5 d6)
+(pick-up cargo2 truck2 birmingham)
+(drop cargo1 truck2 birmingham)
+(drive truck2 birmingham london d6 d7)
+(drop cargo2 truck2 london)
+; cost = 30 (general cost)
+
+; fast downward generated plan with Fast forward heuristic 

@@ -1,0 +1,18 @@
+;;!domain: cargo-transport
+;;!problem: problem3
+
+0.00100: (load cargo2 plane2 london)
+0.00200: (fly plane2 london new-york)
+0.00300: (unload cargo2 plane2 new-york)
+0.00400: (pick-up cargo4 truck2 manchester)
+0.00500: (drive truck2 manchester birmingham)
+0.00600: (drop cargo4 truck2 birmingham)
+0.00700: (pick-up cargo3 truck1 birmingham)
+0.00800: (drive truck1 birmingham manchester)
+0.00900: (drop cargo3 truck1 manchester)
+0.01000: (load cargo1 plane2 new-york)
+0.01100: (fly plane2 new-york london)
+0.01200: (unload cargo1 plane2 london)
+
+; Makespan: 0.012
+; Metric: 0.012

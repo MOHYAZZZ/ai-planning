@@ -1,0 +1,28 @@
+{
+    "defaultDomain": "Domain.pddl",
+    "defaultOptions": "",
+    "cases": [
+        {
+            "problem": "Problem1.pddl",
+            "expectedPlans": [
+                "Problem1-expected.plan"
+            ]
+        },
+        {
+            "problem": "Problem2.pddl",
+            "expectedPlans": [
+                "Problem2-expected.plan"
+            ]
+        },
+        {
+            "problem": "Problem3.pddl",
+            "expectedPlans": [
+                "Problem3-expected.plan",
+                "Problem3-FDLama-expected.plan",
+                "Problem3-astarBlind-expected.plan",
+                "Problem3-FF-expected.plan"
+            ]
+        }
+
+    ]
+}

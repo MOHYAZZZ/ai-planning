@@ -1,0 +1,9 @@
+;;!domain: capacity-transport
+;;!problem: Problem1
+
+0.00100: (pick-up cargo1 truck1 new-york x4 x5)
+0.00200: (drive truck1 new-york london d1 d2)
+0.00300: (drop cargo1 truck1 london x4 x5)
+0.00400: (load cargo2 plane2 london x2 x3)
+0.00500: (fly plane2 london new-york d2 d3)
+0.00600: (unload cargo2 plane2 new-york x2 x3)

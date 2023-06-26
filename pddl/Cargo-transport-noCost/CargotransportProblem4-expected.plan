@@ -1,0 +1,23 @@
+;;!domain: cargo-transport
+;;!problem: problem4
+
+0.00100: (drive truck1 edinburgh manchester)
+0.00200: (pick-up cargo2 truck1 manchester)
+0.00300: (drive truck1 manchester birmingham)
+0.00400: (drive truck1 birmingham london)
+0.00500: (drop cargo2 truck1 london)
+0.00600: (drive truck1 london birmingham)
+0.00700: (pick-up cargo4 truck1 birmingham)
+0.00800: (drive truck1 birmingham manchester)
+0.00900: (drop cargo4 truck1 manchester)
+0.01000: (drive truck1 manchester london)
+0.01100: (pick-up cargo3 truck1 london)
+0.01200: (drive truck1 london liverpool)
+0.01300: (drop cargo3 truck1 liverpool)
+0.01400: (drive truck1 liverpool manchester)
+0.01500: (pick-up cargo1 truck1 manchester)
+0.01600: (drive truck1 manchester edinburgh)
+0.01700: (drop cargo1 truck1 edinburgh)
+
+; Makespan: 0.017
+; Metric: 0.017

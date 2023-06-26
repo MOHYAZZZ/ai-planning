@@ -1,0 +1,12 @@
+;;!domain: cargo-transport
+;;!problem: problem1
+
+0.00100: (load cargo2 plane2 london)
+0.00200: (fly plane2 london new-york)
+0.00300: (unload cargo2 plane2 new-york)
+0.00400: (load cargo1 plane2 new-york)
+0.00500: (fly plane2 new-york london)
+0.00600: (unload cargo1 plane2 london)
+
+; Makespan: 0.006
+; Metric: 0.006
