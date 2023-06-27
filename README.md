@@ -128,7 +128,7 @@ pip install jinja2
 Here you can find some images showcasing the workings of the graph visualizer:
 
 ### Graph 1
-![Graph 1](graphs\Problem_1_expensive_transport_10Days.png)
+![Graph 1](graphs/Problem_1_expensive_transport_10Days.png)
 ![Graph Animation](graphs/cargo_plan_problem1_10days.gif)
 
 ### Graph 2
